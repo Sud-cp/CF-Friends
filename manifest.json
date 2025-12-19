@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "CF Friends Tracker",
+  "version": "1.0",
+  "description": "Track friends' Codeforces ratings and upcoming contests",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "image.png"
+
+  },
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://codeforces.com/api/*"
+  ]
+}

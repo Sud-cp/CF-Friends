@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  padding: 10px;
+  background: #f8f9fa;
+}
+
+h2 {
+  font-size: 14px;
+  margin: 10px 0 5px;
+}
+
+.friend, .contest {
+  background: white;
+  padding: 6px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.friend span {
+  float: right;
+  font-weight: bold;
+}
+
+.rank-newbie { color: gray; }
+.rank-pupil { color: green; }
+.rank-specialist { color: cyan; }
+.rank-expert { color: blue; }
+.rank-candidate { color: purple; }
+.rank-master { color: rgb(255, 194, 80); }
+.rank-intmaster { color: orange; }
+.rank-grandmaster { color: rgb(241, 119, 119); }
+.rank-intr_grandmaster { color: rgb(249, 64, 64); }
+.rank-leg_grandmaster { color: rgb(249, 64, 64); }
+
+a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+#addFriendBox {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+
+#addFriendBox input {
+  flex: 1;
+  padding: 4px;
+  font-size: 12px;
+}
+
+#addFriendBox button {
+  padding: 4px 6px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove {
+  color: red;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 6px;
+}
+
+body {
+  background-image: url("bg.png");
+  background-size: cover;
+  background-position: center;
+}
